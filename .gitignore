@@ -1,0 +1,39 @@
+# Database files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Configuration (contains sensitive data)
+# Uncomment if you want to ignore config.php
+# config.php
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# PHP
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
